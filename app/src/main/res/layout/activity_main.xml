@@ -10,14 +10,59 @@
         android:id="@+id/netflix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="229dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="454dp"
+        android:layout_marginStart="92dp"
         android:text="@string/netflix"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/abc"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/amazon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:text="amazon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="279dp" />
+
+    <Button
+        android:id="@+id/hulu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="316dp"
+        android:text="hulu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="425dp" />
+
+    <Button
+        android:id="@+id/ytb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="ytb"
+        app:layout_constraintBottom_toTopOf="@+id/hulu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="279dp" />
+
+    <Button
+        android:id="@+id/cbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="488dp"
+        android:text="cbs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="455dp" />
+
+    <Button
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="324dp"
+        android:text="abc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
