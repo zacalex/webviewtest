@@ -28,7 +28,7 @@ class WebListAdapter extends ArrayAdapter<WebSite> {
 
         TextView displayName = convertView.findViewById( R.id.label);
         displayName.setText(web.mDisplayName);
-        displayName.setOnClickListener(new View.OnClickListener() {
+        convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getContext(), WebViewBrowserActivity.class);
@@ -38,4 +38,6 @@ class WebListAdapter extends ArrayAdapter<WebSite> {
         });
         return convertView;
     }
+
+
 }

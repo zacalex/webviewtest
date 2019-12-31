@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CompatYoutube.iml" filepath="$PROJECT_DIR$/.idea/modules/CompatYoutube.iml" group="CompatYoutube" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automotive/automotive.iml" filepath="$PROJECT_DIR$/.idea/modules/automotive/automotive.iml" group="CompatYoutube/automotive" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile/mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile/mobile.iml" group="CompatYoutube/mobile" />
+    </modules>
+  </component>
+</project>
