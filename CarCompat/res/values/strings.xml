@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Car Compat</string>
+    <string name="menu_reset_webview">Destroy and create new WebView</string>
+    <string name="menu_about">About WebView</string>
+    <string name="home">Return Home</string>
+    <string name="back">Return Home</string>
+    <string name="forward">Return Home</string>
+    <string name="refresh">Return Home</string>
+</resources>
